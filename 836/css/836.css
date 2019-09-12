@@ -1,0 +1,42 @@
+.type-836 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.type-836 .title {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #eee;
+  font-family: "Open Sans", sans-serif;
+}
+.type-836 .title h1 {
+  font-size: 26px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.type-836 .jumbotron-flat {
+  background-color: solid #4DB8FF F;
+  height: 100%;
+  border: 1px solid #4DB8FF;
+  background: white;
+  width: 100%;
+  text-align: center;
+  overflow: auto;
+}
+.type-836 .jumbotron-flat .center {
+  font-family: "Courier New", Courier, Monospace;
+}
+.type-836 .jumbotron-flat .paymentAmt {
+  font-family: "Courier New", Courier, Monospace;
+}
+.type-836 .paymentAmt {
+  font-size: 80px;
+}
+.type-836 .centered {
+  text-align: center;
+}
+.type-836 .title {
+  padding-top: 15px;
+}
+.type-836 .btn-default {
+  text-align: left;
+}
