@@ -32,7 +32,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         <div class='form-row'>
                             <div class='form-group card required'>
                                 <label class='control-label'>Card Number</label>
-                                <input autocomplete='off' class='form-control card-number' size='20' type='text'>
+                                <input type='number' autocomplete='off' class='form-control card-number' size='20' type='text'>
                             </div>
                         </div>
                         <div class='form-row'>
@@ -52,7 +52,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             </div>
                             <div class='form-group expiration required'>
                                 <label class='control-label'>Year</label>
-                                <input class='form-control card-expiry-year' placeholder='YYYY' size='4' type='text'>
+                                <input type='date' class='form-control card-expiry-year' placeholder='YYYY' size='4' type='text'>
                             </div>
                         </div>
                         <div class='form-row'>
@@ -66,6 +66,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
             </div>   
             <div class="col-sm-6">
+            <br>
                 <label class='control-label'></label><!-- spacing -->
                 <div class="alert alert-info">Please choose your method of payment and hit continue. You will then be sent down to pay using your selected payment option.</div>
                 <br>
@@ -73,7 +74,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     <a class="btn btn-default" data-toggle="tab" href="#stripe">Stripe/Credit Card</a>
                     <a class="btn btn-default" data-toggle="tab" href="#paypal">PayPal</a>
                 </div>
-                <br><br><br>
+                <br><br>
                 <div class="jumbotron jumbotron-flat">
                     <div class="center"><h2><i>BALANCE DUE:</i></h2></div>
                     <div class="paymentAmt">$100</div>
