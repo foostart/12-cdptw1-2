@@ -1,0 +1,213 @@
+.type-427 .ds {
+  text-align: center;
+  vertical-align: middle;
+}
+.type-427 .ds .tite {
+  width: 100%;
+  background: #F7F7F7;
+  height: 85px;
+  position: relative;
+  top: 15px;
+}
+.type-427 .ds .tite h1 {
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #474848;
+  padding: 10px 0;
+}
+.type-427 .ds .product {
+  position: relative;
+  top: 34;
+  width: 100%;
+  vertical-align: middle;
+  height: auto;
+}
+.type-427 .ds .product .image {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  top: 10px;
+}
+.type-427 .ds .product .image img {
+  width: 100%;
+}
+.type-427 .ds .product .opa {
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  position: absolute;
+  opacity: 0;
+  transition: 0.8s;
+}
+.type-427 .ds .product .opa h2 {
+  color: white;
+  font-size: 30px;
+  line-height: 34px;
+  font-weight: 300;
+  letter-spacing: 0px;
+  margin-bottom: 20px;
+  float: left;
+}
+.type-427 .ds .product .opa:hover {
+  opacity: 0.6;
+}
+.type-427 .ds .product .name {
+  position: absolute;
+  top: 10%;
+  left: 13.5%;
+}
+.type-427 .ds .product .name h2 {
+  font-size: 30px;
+  line-height: 34px;
+  font-weight: 300;
+  letter-spacing: 0px;
+  color: white;
+}
+@media (max-width: 959px) and (min-width: 768px) {
+  .type-427 .ds .product .name h2 {
+    font-size: 26px;
+    line-height: 29px;
+  }
+}
+@media (max-width: 479px) {
+  .type-427 .ds .product .name h2 {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
+.type-427 .ds .product .name .big {
+  font-size: 110%;
+  line-height: 180%;
+  color: #AFBDBE;
+  margin-left: 0;
+  position: absolute;
+  left: -1%;
+}
+@media (max-width: 479px) {
+  .type-427 .ds .product .name .big {
+    display: none;
+  }
+}
+.type-427 .ds .product .name .blue {
+  width: 0;
+  height: 4px;
+  background: #0095EB;
+  transition: all 0.8s;
+}
+.type-427 .ds .product .all {
+  width: 271px;
+  margin-left: 30px;
+}
+.type-427 .ds .product .all .label {
+  font-weight: 400;
+  margin-bottom: 8px;
+  font-size: 15px;
+  line-height: 22px;
+}
+.type-427 .ds .product .all h5 {
+  font-weight: 700;
+  margin-bottom: 8px;
+  font-size: 15px;
+  line-height: 22px;
+  color: white;
+}
+.type-427 .ds .product .info {
+  transition: all 1s;
+  position: absolute;
+  right: 13.6%;
+  bottom: 13%;
+  z-index: 2;
+  opacity: 0;
+}
+.type-427 .ds .product .info .date {
+  width: 271px;
+  margin-left: 30px;
+  float: left;
+}
+.type-427 .ds .product .info .date .label {
+  font-weight: 400;
+  margin-bottom: 8px;
+  font-size: 15px;
+  line-height: 22px;
+}
+.type-427 .ds .product .info .date h5 {
+  font-weight: 700;
+  margin-bottom: 8px;
+  font-size: 15px;
+  line-height: 22px;
+  color: white;
+}
+.type-427 .ds .product .info .client {
+  width: 271px;
+  margin-left: 30px;
+  float: left;
+}
+.type-427 .ds .product .info .client .label {
+  font-weight: 400;
+  margin-bottom: 8px;
+  font-size: 15px;
+  line-height: 22px;
+}
+.type-427 .ds .product .info .client h5 {
+  font-weight: 700;
+  margin-bottom: 8px;
+  font-size: 15px;
+  line-height: 22px;
+  color: white;
+}
+.type-427 .ds .product .info .website {
+  width: 271px;
+  margin-left: 30px;
+  float: left;
+}
+.type-427 .ds .product .info .website .label {
+  font-weight: 400;
+  margin-bottom: 8px;
+  font-size: 15px;
+  line-height: 22px;
+}
+.type-427 .ds .product .info .website h5 {
+  font-weight: 700;
+  margin-bottom: 8px;
+  font-size: 15px;
+  line-height: 22px;
+  color: white;
+}
+@media (max-width: 1200px) {
+  .type-427 .ds .product .info .date {
+    float: left;
+    width: 200px;
+    height: auto;
+  }
+  .type-427 .ds .product .info .client {
+    float: left;
+    width: 200px;
+    height: auto;
+  }
+  .type-427 .ds .product .info .website {
+    float: left;
+    width: 200px;
+    height: auto;
+  }
+}
+@media (max-width: 1200px) {
+  .type-427 .ds .product .info {
+    position: absolute;
+    right: 4.6%;
+  }
+}
+@media (max-width: 767px) {
+  .type-427 .ds .product .info {
+    display: none;
+  }
+}
+.type-427 .ds .product:hover .blue {
+  width: 101px;
+}
+.type-427 .ds .product:hover .info {
+  transform: translateY(10px);
+  opacity: 1;
+}

@@ -1,0 +1,56 @@
+.type-429 {
+  background: #232222;
+}
+.type-429 .mega-dropdown {
+  position: static !important;
+}
+.type-429 .mega-dropdown-menu {
+  padding: 20px 0px;
+  width: 100%;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+.type-429 .mega-dropdown-menu > li > ul {
+  padding: 0;
+  margin: 0;
+}
+.type-429 .mega-dropdown-menu > li > ul > li {
+  list-style: none;
+}
+.type-429 .mega-dropdown-menu > li > ul > li > a {
+  display: block;
+  color: #222;
+  padding: 3px 5px;
+}
+.type-429 .mega-dropdown-menu > li ul > li > a:hover,
+.type-429 .mega-dropdown-menu > li ul > li > a:focus {
+  text-decoration: none;
+}
+.type-429 .mega-dropdown-menu .dropdown-header {
+  font-size: 18px;
+  color: #ff3546;
+  padding: 5px 60px 5px 5px;
+  line-height: 30px;
+}
+.type-429 .navbar-inverse {
+  border-color: #232222;
+  padding-top: 20px;
+}
+.type-429 .carousel-control {
+  width: 30px;
+  height: 30px;
+  top: -35px;
+}
+.type-429 .left.carousel-control {
+  right: 30px;
+  left: inherit;
+}
+.type-429 .carousel-control .glyphicon-chevron-left,
+.type-429 .carousel-control .glyphicon-chevron-right {
+  font-size: 12px;
+  background-color: #fff;
+  line-height: 30px;
+  text-shadow: none;
+  color: #333;
+  border: 1px solid #ddd;
+}
