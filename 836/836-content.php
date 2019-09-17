@@ -26,40 +26,39 @@ $url_path = str_replace('\\', '/', $url_path);
                                     </div>
                                 </div>
                                 <label class='control-label'>Name on Card</label>
-                                <input class='form-control' size='4' type='text'>
+                                <input class='form-control' type='text'>
                             </div>
                         </div>
                         <div class='form-row'>
                             <div class='form-group card required'>
                                 <label class='control-label'>Card Number</label>
-                                <input type='number' autocomplete='off' class='form-control card-number' size='20' type='text'>
+                                <input type='number' autocomplete='off' class='form-control card-number'>
                             </div>
                         </div>
                         <div class='form-row'>
                             <div class='form-group card required'>
                                 <label class='control-label'>Billing Address</label>
-                                <input autocomplete='off' class='form-control' size='20' type='text'>
+                                <input autocomplete='off' class='form-control' maxlength="20" type='text'>
                             </div>
                         </div>
                         <div class='form-row'>
                             <div class='form-group cvc required'>
                                 <label class='control-label'>CVC</label>
-                                <input autocomplete='off' class='form-control card-cvc' placeholder='ex. 311' size='4' type='text'>
+                                <input autocomplete='off' class='form-control card-cvc' placeholder='ex. 311' type='number'>
                             </div>
                             <div class='form-group expiration required'>
                                 <label class='control-label'>Expiration</label>
-                                <input class='form-control card-expiry-month' placeholder='MM' size='2' type='text'>
+                                <input class='form-control card-expiry-month' type='month'>
                             </div>
                             <div class='form-group expiration required'>
                                 <label class='control-label'>Year</label>
-                                <input type='date' class='form-control card-expiry-year' placeholder='YYYY' size='4' type='text'>
+                                <input type='date' class='form-control card-expiry-year'>
                             </div>
                         </div>
                         <div class='form-row'>
                             <div class='form-group'>
                                 <label class='control-label'></label>
-                                <button class='form-control btn btn-primary' type='submit'> Continue →</button>
-                                </form>    
+                                <button class='form-control btn btn-primary' type='submit'> Continue →</button>  
                             </div>
                         </div>    
                     </div>
