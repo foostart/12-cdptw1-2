@@ -25,7 +25,7 @@
         <meta name="author" content="David Deutsch">
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo $url_path ?>/css/836.css" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">      
+        <link rel="stylesheet" type="text/css" href="<?php echo $url_path ?>css/font-awesome.min.css">      
     </head>
     <body>
         <?php include '../836/836-content.php'; ?>
