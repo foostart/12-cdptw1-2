@@ -26,7 +26,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                     </div>
                                 </div>
                                 <label class='control-label'>Name on Card</label>
-                                <input class='form-control' type='text'>
+                                <input id="nameOnCard" class='form-control' type='text'>
                             </div>
                         </div>
                         <div class='form-row'>
@@ -38,21 +38,21 @@ $url_path = str_replace('\\', '/', $url_path);
                         <div class='form-row'>
                             <div class='form-group card required'>
                                 <label class='control-label'>Billing Address</label>
-                                <input autocomplete='off' class='form-control' maxlength="20" type='text'>
+                                <input id="blAddress" autocomplete='off' class='form-control' type='text'>
                             </div>
                         </div>
                         <div class='form-row'>
                             <div class='form-group cvc required'>
                                 <label class='control-label'>CVC</label>
-                                <input autocomplete='off' class='form-control card-cvc' placeholder='ex. 311' type='number'>
+                                <input id="cvc" autocomplete='off' class='form-control card-cvc' placeholder='ex. 311' type="number">
                             </div>
                             <div class='form-group expiration required'>
                                 <label class='control-label'>Expiration</label>
-                                <input class='form-control card-expiry-month' type='month'>
+                                <input id="datePicker" class='form-control card-expiry-month' type='text'>
                             </div>
                             <div class='form-group expiration required'>
                                 <label class='control-label'>Year</label>
-                                <input type='date' class='form-control card-expiry-year'>
+                                <input id="yearsPicker" type='text' class='form-control card-expiry-year'>
                             </div>
                         </div>
                         <div class='form-row'>

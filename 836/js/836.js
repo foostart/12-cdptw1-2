@@ -9,4 +9,13 @@ $(document).ready(function () {
                 $(this).toggleClass('open');
             }
     );
+    $("#yearsPicker").datepicker({
+        format: "yyyy",
+        viewMode: "years", 
+        minViewMode: "years"
+    });
+    $("#datePicker").datepicker();
+
+    $("#nameOnCard").prop('maxLength', 20);
+    $("#blAddress").prop('maxLength', 20);
 });

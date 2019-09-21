@@ -299,7 +299,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         <li class="menuTitle child-2"><a href="#"><p>Grid</p></a></li>
                         <li class="menuTitle child-3"><a href="#"><p>Headers</p></a></li>
                         <li class="menuTitle child-4"><a href="#"><p>Features</p></a></li>
-                        <li class="menuTitle child-5" "><a href="#" id="ShortcodesMenu"><p>Shortcodes</p></a>
+                        <li class="menuTitle child-5"><a href="#" id="ShortcodesMenu"><p>Shortcodes</p></a>
                             <ul class="hide-show-shortcode">
                                 <li class="Shortcodes-responsive inactive">
                                     <div >
@@ -425,7 +425,8 @@ $url_path = str_replace('\\', '/', $url_path);
                                 </li>
                             </ul>
                         </li>
-                        <li class="menuTitle child-6"><a href="#"><p>Blog</p></a></li>
+                        <li class="menuTitle child-6"><a href="#"><p>Blog</p></a>
+                        </li>
                         <li class="menuTitle child-7"><a href="#"><p>Portfolio</p></a></li>
                         <li class="menuTitle child-8"><a href="#"><p><i class="fa fa-question"></i></p></a></li>
                         <li class="menuTitle child-9"><a href="#"><p><i class="fa fa-comment-o"></i></p></a></li>

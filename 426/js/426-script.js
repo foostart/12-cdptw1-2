@@ -55,8 +55,8 @@ $(function() {
     $(this).addClass('active');
     menuVisible = false;
   });
+  $(window).resize(function(){
+    $('#menuresponsive').removeClass('active');
+    menuVisible = true;
+	})
 });
-
-
-
-

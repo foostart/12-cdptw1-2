@@ -25,7 +25,12 @@
         <meta name="author" content="David Deutsch">
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo $url_path ?>/css/836.css" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" type="text/css" href="<?php echo $url_path ?>css/font-awesome.min.css">      
+        <link rel="stylesheet" type="text/css" href="<?php echo $url_path ?>css/font-awesome.min.css">
+        <script src="<?php echo $url_path ?>/js/jquery-3.1.1.min.js"></script>
+        <script src="<?php echo $url_path ?>/js/bootstrap-datepicker.js"></script>
+        <link href="<?php echo $url_path ?>/css/bootstrap-datepicker.css" rel="stylesheet"/>
+        <script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
+        <script src="<?php echo $url_path ?>/js/836.js"></script>
     </head>
     <body>
         <?php include '../836/836-content.php'; ?>

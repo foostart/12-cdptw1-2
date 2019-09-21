@@ -29,7 +29,7 @@ $less->compileFile('less/426.less', 'css/426.css');
 
         <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js"></script>
         <script src="<?php echo $url_path ?>/js/bootstrap.min.js" ></script>
-        <script src="<?php echo $url_path ?>/js/426.js"></script>
+        <script src="<?php echo $url_path ?>/js/426-script.js"></script>
 
     </head>
     <body>

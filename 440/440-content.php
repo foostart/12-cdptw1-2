@@ -31,7 +31,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div class="collapse navbar-collapse">
                         <ul id="menu-main-menu" class="nav navbar-nav">
                             <li>
-                                <a href="http://pixelgrapes.com/demo/scribe/">Home</a></li>
+                                <a href="http://pixelgrapes.com/demo/scribe/">Home<i class="fal fa-caret-down"></i></a></li>
                             <li class=" dropdown active">
                                 <a href="#" data-toggle="dropdown" data-hover="dropdown" class="dropdown-toggle" aria-haspopup="true">Showcase <span class="caret"></span></a>
                                 <ul role="menu" class="dropdown-menu">
