@@ -1,152 +1,104 @@
-.type-440{
+.type-440{ 
     .navbar-default {
-        background-color: rgba(255,255,255,0);
-        background: url(../images/bg-dot.png);
-        .navbar-nav > li > a{
-            color: #000;
+        background-color: #fff;
+        border-bottom: 0.1px solid #cccccc;
+        border-radius: 0px;
+        height: 80px;
+        .navbar-header{
+            .icon-bar{
+                background-color: #fff;
+            }
+            .logo-text {
+                font-size: 30px;
+                color: #fff;
+                text-transform: uppercase;
+                margin-top: 25px;
+                .text-highlight{
+                    color: #7ccbfc;
+                }
+            }
         }
-        .navbar-nav > .active > a{
-            background: none!important;
-            background-image: none!important;
-            color: #000;
+        .navbar-nav{
+            li{
+                text-align: center;
+                a {
+                    color: #000;
+                    display: block;
+                    padding: 7px 0 8px;
+                    padding: 31px 16px 27px;
+                    text-decoration: none;
+                }
+                a:hover{
+                    color: #34D298;
+                    border-bottom: 2px solid rgb(7, 168, 109);
+                    text-decoration: none;
+                }
+                .dropdown-menu{
+                    border-radius: none;
+                    border: 0.5px solid #ccc;
+                    border-bottom-right-radius: 10%;
+                    border-bottom-left-radius: 10%;
+                    background-color: #fff;
+                    padding: 0px 10px 0px 10px;
+                    margin-top: 0px;
+                    li{
+                        width: 100%;
+                        padding: 7px 0 8px;
+                        border-bottom: 1px solid #ccc;
+                        a{
+                            border: none;
+                            padding: 10px;
+                            text-decoration: none;
+                            color: #000;
+                        }
+                        a:hover{
+                            color: #34D298;
+                            background-color: #fff;
+                        }
+                    }
+                }
+            }
+            .active-item a {
+                color: #7ccbfc;
+            }
         }
-        .navbar-nav > .dropdown > a .caret {
-            border-bottom-color: #fff;
-            border-top-color: #fff;
+        .navbar-collapse{
+            background-color: #fff;
+            border: none;
+            .nav li{
+                a:hover{
+                    color: #7ccbfc;
+                    background-color: #34D298;
+                }
+            }
         }
-    }
-    .navbar {
-        min-height: 77px;
-        margin-bottom: 0px;
-        transition: all 0.3s ease 0s;
-        .container {
-            z-index: 9999;
-        }
-        .brand {
-            font-size: 20px;
-            text-transform: uppercase;
-            color: #050F1E;
-        }
-        .nav > li > a {
-            border-bottom: none;
-        }
-    }
-    .nav-container.container {
-        background: none;
-    }
-    .container {
-        position: relative;
     }
     button{
-        text-shadow: none;
-        color: #FFF;
-        font-weight: 300;
-        font-size: 18px;
-        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        background: #34D298;
     }
-    .brand {
-        margin: 0 auto;
-        padding: 2em 0 3em;
-        text-align: center;
-        img {
-            padding: 10px;
-            border-radius: 3px;
-            max-width: 100%;
-            max-height: 120px;
-            width: auto;
-            float: left;
-            position: relative;
+    @media (max-width: 768px) {
+        .logo-text{
+            margin-left: 20px;
         }
-    }
-    a {
-        outline: 0!important;
-    }
-    .navbar-nav {
-        float: right;
-    }
-
-    li {
-        line-height: 22px;
-    }
-    .nav>li>a {
-        margin-left: 3px;
-    }
-
-    .dropdown-menu {
-        border-radius: 0;
-        box-shadow: 0 3px 8px rgba(17,17,17,0.2);
-        list-style: none;
-        margin: 2px 0 0;
-        padding: 5px 0;
-        text-align: left;
-        background-color: #333333;
-        li > a {
-            padding: 10px 20px;
-            margin: -5px 0;
+        .navbar-toggle {
+            margin-top: 15px;
         }
-        li a {
-            background-color: #fff;
-            color: #333;
-        }
-    }
-    .dropdown-menu > .active > a{
-        background: #fff;
-        color: #333;
-    }
-
-    .dropdown-menu>li>a {
-        color: #ffffff;
-        font-size: 14px;
-    }
-    .dropdown-menu li {
-        a {
-            background-color: #fff;
-            color: #333;
-        }
-        a:hover{
-            background-color: #34d298;
-            color:#fff;
-        }
-    }
-    body {
-        font-size: 16px;
-        font-weight: 300;
-        text-rendering: optimizeLegibility;
     }
     
-    .navbar .container {
-        z-index: 9999;
-    }
-    .sc-nav.shrink .navbar-toggle {
-        padding: 8px 8px;
-        margin: 8px 15px 8px 0;
-        border: none;
-        border-radius: 0;
-        background: #333;
-    }
-    button{
-        padding: 10px 20px;
-        background: #34D298;
-        border: none;
-        border-radius: 3px;
-        text-shadow: none;
-        color: #FFF;
-        font-weight: 300;
-        font-size: 18px;
-        transition: all linear 0.15s;
-    }
-    #menu-main-menu{
-        padding-top: 20px;
-    }
-    @media (min-width: 768px){
-        .nav > li {
-            display: inline-block;
+    @media only screen and (min-width: 320px) and (max-width: 479px){    }
+
+    @media only screen and (min-width: 480px) and (max-width: 767px){  
+        .navbar-default .navbar-nav li{
+            text-align: left;
+            font-weight: 700;
         }
-    }
-    @media (max-width: 991px) and (min-width: 480px) {
-        .navbar .nav > li > a {
-            padding: 10px 5px;
-            line-height: 70px;
+        .nav .open>a{
+            background-color: initial;
+        }
+        .navbar-default 
+        .navbar-nav li 
+        .dropdown-menu li a{
+            font-weight: 700;
         }
     }
 }

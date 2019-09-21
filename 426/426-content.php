@@ -17,11 +17,12 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="row">
                     <div class="megamenu">
                         <div id="logo">
-                            <a href="#"><img class="mainlogo img-responsive" src="http://ari-3.local/426/blocks/426/image/theme.png" alt=""></a>
+
+                            <a href="#"><img class="mainlogo img-responsive" src="image/theme.png" alt=""></a>
                         </div>
                         <a href="#"><div class="btn-buy"><span>Buy now</span></div></a>
                         <div class="navbar-collapse">
-                            <ul class="nav navbar-nav DesktopMenu">
+                            <ul class="nav navbar-nav DesktopMenu navbar-right">
                                 <li class="" ><a href="#">Website</a></li>
                                 <li><a href="#">Builder</a></li>
                                 <li><a href="#">Grid</a></li>
