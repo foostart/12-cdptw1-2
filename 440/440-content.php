@@ -8,7 +8,7 @@ $url_path = str_replace('\\', '/', $url_path);
 ?>
 <div class="type-440">
     <!--BEGIN MENU -->
-    <nav class="navbar navbar-default" role="navigation">
+    <nav class="navbar navbar-default">
         <div class="container">
             <!--BEGIN NAVMIN -->
             <div class="navbar-header">

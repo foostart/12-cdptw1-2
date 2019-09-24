@@ -30,7 +30,6 @@ $less->compileFile('less/417.less', 'css/417.css');
 
     <body> 
         <?php include $dir_block . '/417-content.php'; ?>
-        <script src="<?php echo $url_path ?>/js/scripts.js" type="text/javascript"></script>
     </body>
 
 </html>

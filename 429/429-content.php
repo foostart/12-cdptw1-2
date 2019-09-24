@@ -1,5 +1,6 @@
 
 <div class="type-429">
+    
     <div class="container">
         <nav class="navbar navbar-inverse">
             <div class="navbar-header">
@@ -20,22 +21,22 @@
                             <li class="col-sm-3">
                                 <ul>
                                     <li class="dropdown-header">Men Collection</li>                            
-                                    <div id="menCollection" class="carousel slide" data-ride="carousel">
+                                    <li id="menCollection" class="carousel slide" data-ride="carousel">
                                         <div class="carousel-inner">
                                             <div class="item active">
                                                 <a href="#"><img src="http://placehold.it/254x150/ff3546/f5f5f5/&text=New+Collection" class="img-responsive" alt="product 1"></a>
                                                 <h4><small>Summer dress floral prints</small></h4>                                        
-                                                <button class="btn btn-primary" type="button">49,99 €</button> <button href="#" class="btn btn-default" type="button"><span class="glyphicon glyphicon-heart"></span> Add to Wishlist</button>       
+                                                <button class="btn btn-primary" type="button">49,99 €</button> <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-heart"></span> Add to Wishlist</button>       
                                             </div><!-- End Item -->
                                             <div class="item">
                                                 <a href="#"><img src="http://placehold.it/254x150/3498db/f5f5f5/&text=New+Collection" class="img-responsive" alt="product 2"></a>
                                                 <h4><small>Gold sandals with shiny touch</small></h4>                                        
-                                                <button class="btn btn-primary" type="button">9,99 €</button> <button href="#" class="btn btn-default" type="button"><span class="glyphicon glyphicon-heart"></span> Add to Wishlist</button>        
+                                                <button class="btn btn-primary" type="button">9,99 €</button> <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-heart"></span> Add to Wishlist</button>        
                                             </div><!-- End Item -->
                                             <div class="item">
                                                 <a href="#"><img src="http://placehold.it/254x150/2ecc71/f5f5f5/&text=New+Collection" class="img-responsive" alt="product 3"></a>
                                                 <h4><small>Denin jacket stamped</small></h4>                                        
-                                                <button class="btn btn-primary" type="button">49,99 €</button> <button href="#" class="btn btn-default" type="button"><span class="glyphicon glyphicon-heart"></span> Add to Wishlist</button>      
+                                                <button class="btn btn-primary" type="button">49,99 €</button> <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-heart"></span> Add to Wishlist</button>      
                                             </div><!-- End Item -->                                
                                         </div><!-- End Carousel Inner -->
                                         <!-- Controls -->
@@ -47,7 +48,7 @@
                                             <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                                             <span class="sr-only">Next</span>
                                         </a>
-                                    </div><!-- /.carousel -->
+                                    </li><!-- /.carousel -->
                                     <li class="divider"></li>
                                     <li><a href="#">View all Collection <span class="glyphicon glyphicon-chevron-right pull-right"></span></a></li>
                                 </ul>
@@ -126,22 +127,22 @@
                             <li class="col-sm-3">
                                 <ul>
                                     <li class="dropdown-header">Women Collection</li>                            
-                                    <div id="womenCollection" class="carousel slide" data-ride="carousel">
+                                    <li id="womenCollection" class="carousel slide" data-ride="carousel">
                                         <div class="carousel-inner">
                                             <div class="item active">
                                                 <a href="#"><img src="http://placehold.it/254x150/3498db/f5f5f5/&text=New+Collection" class="img-responsive" alt="product 1"></a>
                                                 <h4><small>Summer dress floral prints</small></h4>                                        
-                                                <button class="btn btn-primary" type="button">49,99 €</button> <button href="#" class="btn btn-default" type="button"><span class="glyphicon glyphicon-heart"></span> Add to Wishlist</button>       
+                                                <button class="btn btn-primary" type="button">49,99 €</button> <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-heart"></span> Add to Wishlist</button>       
                                             </div><!-- End Item -->
                                             <div class="item">
                                                 <a href="#"><img src="http://placehold.it/254x150/ff3546/f5f5f5/&text=New+Collection" class="img-responsive" alt="product 2"></a>
                                                 <h4><small>Gold sandals with shiny touch</small></h4>                                        
-                                                <button class="btn btn-primary" type="button">9,99 €</button> <button href="#" class="btn btn-default" type="button"><span class="glyphicon glyphicon-heart"></span> Add to Wishlist</button>        
+                                                <button class="btn btn-primary" type="button">9,99 €</button> <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-heart"></span> Add to Wishlist</button>        
                                             </div><!-- End Item -->
                                             <div class="item">
                                                 <a href="#"><img src="http://placehold.it/254x150/2ecc71/f5f5f5/&text=New+Collection" class="img-responsive" alt="product 3"></a>
                                                 <h4><small>Denin jacket stamped</small></h4>                                        
-                                                <button class="btn btn-primary" type="button">49,99 €</button> <button href="#" class="btn btn-default" type="button"><span class="glyphicon glyphicon-heart"></span> Add to Wishlist</button>      
+                                                <button class="btn btn-primary" type="button">49,99 €</button> <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-heart"></span> Add to Wishlist</button>      
                                             </div><!-- End Item -->                                
                                         </div><!-- End Carousel Inner -->
                                         <!-- Controls -->
@@ -153,7 +154,7 @@
                                             <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                                             <span class="sr-only">Next</span>
                                         </a>
-                                    </div><!-- /.carousel -->
+                                    </li><!-- /.carousel -->
                                     <li class="divider"></li>
                                     <li><a href="#">View all Collection <span class="glyphicon glyphicon-chevron-right pull-right"></span></a></li>
                                 </ul>

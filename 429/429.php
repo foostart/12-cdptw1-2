@@ -26,15 +26,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo $url_path ?>/css/429.css" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="css/swiper.min.css">
-        <link rel="stylesheet" type="text/css" href="css/styles-slide.css">
+        <script type="text/javascript" src="js/jquery.touchSwipe.min.js"></script>
+        <script src="<?php echo $url_path ?>/js/swipe.js" type="text/javascript"></script>
         <script src="<?php echo $url_path ?>/js/jquery-2.2.4.min.js" type="text/javascript"></script>
         <script src="<?php echo $url_path ?>/js/bootstrap.min.js" type="text/javascript"></script>
-        <script src="<?php echo $url_path ?>/js/429.js" type="text/javascript"></script>
+        <script src="js/429.js"></script>
     </head>
     <body>
       <?php include'../429/429-content.php';  ?>
-        <script src="js/swiper.min.js"></script>
-        <script type="text/javascript" src="js/script-slide.js"></script>
     </body>
 </html>

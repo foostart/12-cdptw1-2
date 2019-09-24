@@ -1,16 +1,6 @@
-<?php
-$url_host = 'http://' . $_SERVER['HTTP_HOST'];
-$pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
-$pattern_uri = '/' . $pattern_document_root . '(.*)$/';
-
-preg_match_all($pattern_uri, __DIR__, $matches);
-$url_path = $url_host . $matches[1][0];
-$url_path = str_replace('\\', '/', $url_path);
-?>
-
 <div class="type-417">
     <!--BEGIN MENU -->
-    <nav class="navbar-default" role="navigation">
+    <nav class="navbar-default">
         <div class="container">
             <!--BEGIN NAVMIN -->
             <div class="navbar-header">
@@ -25,10 +15,10 @@ $url_path = str_replace('\\', '/', $url_path);
             <!--END NAVMIN -->
             <!--BEGIN MENU RIGHT-->
             <div class="navbar-collapse" id="bs-slide-dropdown">
-                <ul class="nav navbar-nav navbar-right">
+                <ul class="nav navbar-nav navbar-right hide-show-shortcode">
                     <!--HOME-->
                     <li class="dropdown active-item">
-                        <a href="#" class="dropdown-toggle active-item " data-toggle="dropdown">Home</a>
+                        <a href="#" class="dropdown-toggle active-item " data-toggle="dropdown">Home<span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li><a href="#">Coming soon</a></li>
                             <li><a href="#">How it works</a></li>
@@ -37,7 +27,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     <li><a href="#">About</a></li>
                     <!--PAGES-->
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages</a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages<span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li><a href="#">Coming soon</a></li>
                             <li><a href="#">How it works</a></li>
@@ -47,14 +37,14 @@ $url_path = str_replace('\\', '/', $url_path);
                     </li>
                     <!--SEVICES-->
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services</a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services<span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li><a href="#">Price plans</a></li>
                         </ul>
                     </li>
                     <!--BLOG-->
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog</a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog<span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li><a href="#">Blog style 1</a></li>
                             <li><a href="#">Blog style 1 fullwidth</a></li>
@@ -66,7 +56,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     </li>
                     <!--GALLERY-->
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Gallery</a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Gallery<span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li><a href="#">Gallery random</a></li>
                             <li><a href="#">Gallery columns 2</a></li>
@@ -76,7 +66,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     </li>
                     <!--SHOP-->
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Shop</a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Shop<span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li><a href="#">Single product</a></li>
                         </ul>

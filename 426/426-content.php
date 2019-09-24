@@ -1,12 +1,3 @@
-<?php
-$url_host = 'http://' . $_SERVER['HTTP_HOST'];
-$pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
-$pattern_uri = '/' . $pattern_document_root . '(.*)$/';
-
-preg_match_all($pattern_uri, __DIR__, $matches);
-$url_path = $url_host . $matches[1][0];
-$url_path = str_replace('\\', '/', $url_path);
-?>
 <div class="type_426">
     <!--BEGIN MENU-->
     <div class="container">  
@@ -32,11 +23,11 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <li class="dropdown">
                                     <a href="#">Shortcodes</a>
                                     <ul class="dropdown-menu" role="menu">
-                                        <div class="row">
+                                        <li class="row">
                                             <div class="col-md-2">
                                                 <div class="custom-title">
                                                     <ul>
-                                                        <li id="title"><a href="#"><span class="p1">TYPOGRAPHY</span></a></li>
+                                                        <li><a href="#"><span class="p1">TYPOGRAPHY</span></a></li>
                                                         <li><a href="#"><span>Alert</span></a></li>
                                                         <li><a href="#"><span>Basic</span></a></li>
                                                         <li><a href="#"><span>Blockquote</span></a></li>
@@ -59,7 +50,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                             <div class="col-md-2">
                                                 <div class="custom-title">
                                                     <ul>
-                                                        <li id="title"><a href="#"><span class="p1">TYPOGRAPHY</span></a></li>
+                                                        <li><a href="#"><span class="p1">TYPOGRAPHY</span></a></li>
                                                         <li><a href="#"><span>Alert</span></a></li>
                                                         <li><a href="#"><span>Basic</span></a></li>
                                                         <li><a href="#"><span>Blockquote</span></a></li>
@@ -75,7 +66,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                             <div class="col-md-2">
                                                 <div class="custom-title">
                                                     <ul>
-                                                        <li id="title"><a href="#"><span class="p1">TYPOGRAPHY</span></a></li>
+                                                        <li><a href="#"><span class="p1">TYPOGRAPHY</span></a></li>
                                                         <li><a href="#"><span>Alert</span></a></li>
                                                         <li><a href="#"><span>Basic</span></a></li>
                                                         <li><a href="#"><span>Blockquote</span></a></li>
@@ -98,7 +89,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                             <div class="col-md-2">
                                                 <div class="custom-title">
                                                     <ul>
-                                                        <li id="title"><a href="#"><span class="p1">TYPOGRAPHY</span></a></li>
+                                                        <li><a href="#"><span class="p1">TYPOGRAPHY</span></a></li>
                                                         <li><a href="#"><span>Alert</span></a></li>
                                                         <li><a href="#"><span>Basic</span></a></li>
                                                         <li><a href="#"><span>Blockquote</span></a></li>
@@ -112,7 +103,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                             <div class="col-md-2">
                                                 <div class="custom-title">
                                                     <ul>
-                                                        <li id="title"><a href="#"><span class="p1">TYPOGRAPHY</span></a></li>
+                                                        <li><a href="#"><span class="p1">TYPOGRAPHY</span></a></li>
                                                         <li><a href="#"><span>Alert</span></a></li>
                                                         <li><a href="#"><span>Basic</span></a></li>
                                                         <li><a href="#"><span>Blockquote</span></a></li>
@@ -133,7 +124,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                             <div class="col-md-2">
                                                 <div class="custom-title">
                                                     <ul>
-                                                        <li id="title"><a href="#"><span class="p1">TYPOGRAPHY</span></a></li>
+                                                        <li><a href="#"><span class="p1">TYPOGRAPHY</span></a></li>
                                                         <li><a href="#"><span>Alert</span></a></li>
                                                         <li><a href="#"><span>Basic</span></a></li>
                                                         <li><a href="#"><span>Blockquote</span></a></li>
@@ -151,7 +142,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                                     </ul>
                                                 </div>
                                             </div><!-- END COL-2 -->
-                                        </div><!-- END ROW -->
+                                        </li><!-- END ROW -->
                                     </ul>
                                 </li>
                                 <!---MENU BLOG-->
@@ -163,7 +154,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                                 <div class="col-sm-3">
                                                     <div class="custom-title">
                                                         <ul>
-                                                            <li id="title"><a href="#"><span class="p1">TYPOGRAPHY</span></a></li>
+                                                            <li><a href="#"><span class="p1">TYPOGRAPHY</span></a></li>
                                                             <li><a href="#"><span>Alert</span></a></li>
                                                             <li><a href="#"><span>Basic</span></a></li>
                                                             <li><a href="#"><span>Blockquote</span></a></li>
@@ -176,7 +167,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                                 <div class="col-sm-3">
                                                     <div class="custom-title">
                                                         <ul>
-                                                            <li id="title"><a href="#"><span class="p1">TYPOGRAPHY</span></a></li>
+                                                            <li><a href="#"><span class="p1">TYPOGRAPHY</span></a></li>
                                                             <li><a href="#"><span>Alert</span></a></li>
                                                             <li><a href="#"><span>Basic</span></a></li>
                                                             <li><a href="#"><span>Blockquote</span></a></li>
@@ -189,7 +180,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                                 <div class="col-sm-3">
                                                     <div class="custom-title">
                                                         <ul>
-                                                            <li id="title"><a href="#"><span class="p1">TYPOGRAPHY</span></a></li>
+                                                            <li><a href="#"><span class="p1">TYPOGRAPHY</span></a></li>
                                                             <li><a href="#"><span>Alert</span></a></li>
                                                             <li><a href="#"><span>Basic</span></a></li>
                                                             <li><a href="#"><span>Blockquote</span></a></li>
@@ -202,7 +193,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                                 <div class="col-sm-3">
                                                     <div class="custom-title">
                                                         <ul>
-                                                            <li id="title"><a href="#"><span class="p1">TYPOGRAPHY</span></a></li>
+                                                            <li><a href="#"><span class="p1">TYPOGRAPHY</span></a></li>
                                                             <li><a href="#"><span>Alert</span></a></li>
                                                             <li><a href="#"><span>Basic</span></a></li>
                                                             <li><a href="#"><span>Blockquote</span></a></li>
@@ -225,7 +216,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                                 <div class="col-sm-3">
                                                     <div class="custom-title">
                                                         <ul>
-                                                            <li id="title"><a href="#"><span class="p1">TYPOGRAPHY</span></a></li>
+                                                            <li><a href="#"><span class="p1">TYPOGRAPHY</span></a></li>
                                                             <li><a href="#"><span>Alert</span></a></li>
                                                             <li><a href="#"><span>Basic</span></a></li>
                                                             <li><a href="#"><span>Blockquote</span></a></li>
@@ -240,7 +231,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                                 <div class="col-sm-3">
                                                     <div class="custom-title">
                                                         <ul>
-                                                            <li id="title"><a href="#"><span class="p1">TYPOGRAPHY</span></a></li>
+                                                            <li><a href="#"><span class="p1">TYPOGRAPHY</span></a></li>
                                                             <li><a href="#"><span>Alert</span></a></li>
                                                             <li><a href="#"><span>Basic</span></a></li>
                                                             <li><a href="#"><span>Blockquote</span></a></li>
@@ -253,7 +244,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                                 <div class="col-sm-3">
                                                     <div class="custom-title">
                                                         <ul>
-                                                            <li id="title"><a href="#"><span class="p1">TYPOGRAPHY</span></a></li>
+                                                            <li><a href="#"><span class="p1">TYPOGRAPHY</span></a></li>
                                                             <li><a href="#"><span>Alert</span></a></li>
                                                             <li><a href="#"><span>Basic</span></a></li>
                                                             <li><a href="#"><span>Blockquote</span></a></li>
@@ -300,14 +291,14 @@ $url_path = str_replace('\\', '/', $url_path);
                         <li class="menuTitle child-2"><a href="#"><p>Grid</p></a></li>
                         <li class="menuTitle child-3"><a href="#"><p>Headers</p></a></li>
                         <li class="menuTitle child-4"><a href="#"><p>Features</p></a></li>
-                        <li class="menuTitle child-5"><a href="#" id="ShortcodesMenu"><p>Shortcodes</p></a>
+                        <li class="menuTitle child-5"><a href="#" id="ShortcodesMenu"><p>Shortcodes<span class="caret"></span></p></a>
                             <ul class="hide-show-shortcode">
                                 <li class="Shortcodes-responsive inactive">
                                     <div >
                                         <div>
                                             <div class="custom-title">
                                                 <ul>
-                                                    <li id="title-mobi"><a href="#"><span class="p1">TYPOGRAPHY</span></a></li>
+                                                    <li><a href="#"><span class="p1">TYPOGRAPHY</span></a></li>
                                                     <li><a href="#"><span>Alert</span></a></li>
                                                     <li><a href="#"><span>Basic</span></a></li>
                                                     <li><a href="#"><span>Blockquote</span></a></li>
@@ -330,7 +321,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                         <div>
                                             <div class="custom-title">
                                                 <ul>
-                                                    <li id="title-mobi"><a href="#"><span class="p1">TYPOGRAPHY</span></a></li>
+                                                    <li><a href="#"><span class="p1">TYPOGRAPHY</span></a></li>
                                                     <li><a href="#"><span>Alert</span></a></li>
                                                     <li><a href="#"><span>Basic</span></a></li>
                                                     <li><a href="#"><span>Blockquote</span></a></li>
@@ -346,7 +337,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                         <div>
                                             <div class="custom-title">
                                                 <ul>
-                                                    <li id="title-mobi"><a href="#"><span class="p1">TYPOGRAPHY</span></a></li>
+                                                    <li><a href="#"><span class="p1">TYPOGRAPHY</span></a></li>
                                                     <li><a href="#"><span>Alert</span></a></li>
                                                     <li><a href="#"><span>Basic</span></a></li>
                                                     <li><a href="#"><span>Blockquote</span></a></li>
@@ -369,7 +360,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                         <div>
                                             <div class="custom-title">
                                                 <ul>
-                                                    <li id="title-mobi"><a href="#"><span class="p1">TYPOGRAPHY</span></a></li>
+                                                    <li><a href="#"><span class="p1">TYPOGRAPHY</span></a></li>
                                                     <li><a href="#"><span>Alert</span></a></li>
                                                     <li><a href="#"><span>Basic</span></a></li>
                                                     <li><a href="#"><span>Blockquote</span></a></li>
@@ -383,7 +374,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                         <div>
                                             <div class="custom-title">
                                                 <ul>
-                                                    <li id="title-mobi"><a href="#"><span class="p1">TYPOGRAPHY</span></a></li>
+                                                    <li><a href="#"><span class="p1">TYPOGRAPHY</span></a></li>
                                                     <li><a href="#"><span>Alert</span></a></li>
                                                     <li><a href="#"><span>Basic</span></a></li>
                                                     <li><a href="#"><span>Blockquote</span></a></li>
@@ -404,7 +395,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                         <div>
                                             <div class="custom-title">
                                                 <ul>
-                                                    <li id="title-mobi"><a href="#"><span class="p1">TYPOGRAPHY</span></a></li>
+                                                    <li><a href="#"><span class="p1">TYPOGRAPHY</span></a></li>
                                                     <li><a href="#"><span>Alert</span></a></li>
                                                     <li><a href="#"><span>Basic</span></a></li>
                                                     <li><a href="#"><span>Blockquote</span></a></li>
