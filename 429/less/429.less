@@ -1,7 +1,15 @@
 .type-429 {
-        background: #232222;
+    background: #232222;
     .mega-dropdown {
         position: static !important;
+    }
+    .mega-dropdown {
+        .dropdown-menu{
+            top: auto;
+        }
+        .dropdown-menu:hover{
+            display: block;
+        }
     }
     .mega-dropdown-menu {
         padding: 20px 0px;
@@ -16,11 +24,24 @@
     .mega-dropdown-menu > li > ul > li {
         list-style: none;
     }
+
+
+
+
+
+
+
     .mega-dropdown-menu > li > ul > li > a {
         display: block;
         color: #222;
         padding: 3px 5px;
     }
+
+
+
+
+
+
     .mega-dropdown-menu > li ul > li > a:hover,
         .mega-dropdown-menu > li ul > li > a:focus {
         text-decoration: none;
@@ -37,9 +58,9 @@
     }
 
     .carousel-control {
-        width: 30px;
-        height: 30px;
-        top: -35px;
+        width: 1em;
+        height: 1em;
+        top: -1.8em;
 
     }
     .left.carousel-control {
@@ -54,6 +75,15 @@
         text-shadow: none;
         color: #333;
         border: 1px solid #ddd;
+    }
+    @media only screen and (max-width: 768px){
+        .mega-dropdown-menu{
+            background: #222;  
+        }
+        .mega-dropdown-menu > li > ul > li > a {
+            color: #fff;
+            padding: 3px 2em 5px;
+        }
     }
 }
 

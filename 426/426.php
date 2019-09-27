@@ -33,6 +33,6 @@ $less->compileFile('less/426.less', 'css/426.css');
 
     </head>
     <body>
-        <?php  include $dir_block . '/426-content.php'; ?>
+        <?php  include '426-content.php'; ?>
     </body>
 </html>

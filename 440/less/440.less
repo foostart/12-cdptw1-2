@@ -17,28 +17,34 @@
                     color: #7ccbfc;
                 }
             }
+            button{
+                background:  #34D298;
+            }
+            button:hover{
+                background:  #34EE98;
+            }
         }
+        .container{
+                padding-left: 1em;
+                padding-right: 1em;
+            }
         .navbar-nav{
             li{
                 text-align: center;
                 a {
                     color: #000;
                     display: block;
-                    padding: 7px 0 8px;
                     padding: 31px 16px 27px;
                     text-decoration: none;
                 }
                 a:hover{
-                    color: #34D298;
-                    border-bottom: 2px solid rgb(7, 168, 109);
+                    color: #000;
                     text-decoration: none;
                 }
                 .dropdown-menu{
                     border-radius: none;
                     border: 0.5px solid #ccc;
-                    border-bottom-right-radius: 10%;
-                    border-bottom-left-radius: 10%;
-                    background-color: #fff;
+                    background-color: #eee;
                     padding: 0px 10px 0px 10px;
                     margin-top: 0px;
                     li{
@@ -46,14 +52,12 @@
                         padding: 7px 0 8px;
                         border-bottom: 1px solid #ccc;
                         a{
-                            border: none;
                             padding: 10px;
-                            text-decoration: none;
                             color: #000;
                         }
                         a:hover{
                             color: #34D298;
-                            background-color: #fff;
+                            background-color: #eee;
                         }
                     }
                 }
@@ -61,13 +65,14 @@
             .active-item a {
                 color: #7ccbfc;
             }
+
         }
         .navbar-collapse{
             background-color: #fff;
             border: none;
             .nav li{
                 a:hover{
-                    color: #7ccbfc;
+                    color: #fff;
                     background-color: #34D298;
                 }
             }
@@ -84,7 +89,6 @@
             margin-top: 15px;
         }
     }
-    
     @media only screen and (min-width: 320px) and (max-width: 479px){    }
 
     @media only screen and (min-width: 480px) and (max-width: 767px){  

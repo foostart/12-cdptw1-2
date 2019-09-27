@@ -1,7 +1,7 @@
 <div class="type-836">
         <div class="container">
-            <div class="centered title"><h1>Welcome to our checkout.</h1></div>
-            <div class="col-sm-6">
+            <div class="title"><h1>Welcome to our checkout.</h1></div>
+            <div class="col-sm-6" >
                 <div class="tab-content">
                     <div id="stripe" class="tab-pane fade in active">
                         <br>

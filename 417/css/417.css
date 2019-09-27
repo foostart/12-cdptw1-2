@@ -16,6 +16,12 @@
 .type-417 .navbar-default .navbar-header .logo-text .text-highlight {
   color: #7ccbfc;
 }
+.type-417 .navbar-default .navbar-header button {
+  background: #212c43;
+}
+.type-417 .navbar-default .navbar-header button:hover {
+  background: #3333FF;
+}
 .type-417 .navbar-default .navbar-nav li {
   text-align: center;
 }
@@ -28,7 +34,6 @@
 }
 .type-417 .navbar-default .navbar-nav li a:hover {
   color: #7ccbfc;
-  border-bottom: 2px solid #7ccbfc;
   text-decoration: none;
 }
 .type-417 .navbar-default .navbar-nav li .dropdown-menu {

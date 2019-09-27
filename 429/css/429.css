@@ -4,6 +4,12 @@
 .type-429 .mega-dropdown {
   position: static !important;
 }
+.type-429 .mega-dropdown .dropdown-menu {
+  top: auto;
+}
+.type-429 .mega-dropdown .dropdown-menu:hover {
+  display: block;
+}
 .type-429 .mega-dropdown-menu {
   padding: 20px 0px;
   width: 100%;
@@ -37,9 +43,9 @@
   padding-top: 20px;
 }
 .type-429 .carousel-control {
-  width: 30px;
-  height: 30px;
-  top: -35px;
+  width: 1em;
+  height: 1em;
+  top: -1.8em;
 }
 .type-429 .left.carousel-control {
   right: 30px;
@@ -53,4 +59,13 @@
   text-shadow: none;
   color: #333;
   border: 1px solid #ddd;
+}
+@media only screen and (max-width: 768px) {
+  .type-429 .mega-dropdown-menu {
+    background: #222;
+  }
+  .type-429 .mega-dropdown-menu > li > ul > li > a {
+    color: #fff;
+    padding: 3px 2em 5px;
+  }
 }

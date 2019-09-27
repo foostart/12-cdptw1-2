@@ -29,7 +29,7 @@ $less->compileFile('less/417.less', 'css/417.css');
     </head>
 
     <body> 
-        <?php include $dir_block . '/417-content.php'; ?>
+        <?php include '417-content.php'; ?>
     </body>
 
 </html>

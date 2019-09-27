@@ -4,8 +4,11 @@
 }
 .type-836 .title {
   padding-top: 15px;
+  text-align: center;
   padding-bottom: 15px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 0.4px solid #eee;
+  margin-right: 1.1em;
+  margin-left: 1.1em;
   font-family: "Open Sans", sans-serif;
 }
 .type-836 .title h1 {
@@ -30,9 +33,6 @@
 }
 .type-836 .paymentAmt {
   font-size: 80px;
-}
-.type-836 .centered {
-  text-align: center;
 }
 .type-836 .title {
   padding-top: 15px;

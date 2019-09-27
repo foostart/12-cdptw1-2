@@ -16,27 +16,33 @@
 .type-440 .navbar-default .navbar-header .logo-text .text-highlight {
   color: #7ccbfc;
 }
+.type-440 .navbar-default .navbar-header button {
+  background: #34D298;
+}
+.type-440 .navbar-default .navbar-header button:hover {
+  background: #34EE98;
+}
+.type-440 .navbar-default .container {
+  padding-left: 1em;
+  padding-right: 1em;
+}
 .type-440 .navbar-default .navbar-nav li {
   text-align: center;
 }
 .type-440 .navbar-default .navbar-nav li a {
   color: #000;
   display: block;
-  padding: 7px 0 8px;
   padding: 31px 16px 27px;
   text-decoration: none;
 }
 .type-440 .navbar-default .navbar-nav li a:hover {
-  color: #34D298;
-  border-bottom: 2px solid #07a86d;
+  color: #000;
   text-decoration: none;
 }
 .type-440 .navbar-default .navbar-nav li .dropdown-menu {
   border-radius: none;
   border: 0.5px solid #ccc;
-  border-bottom-right-radius: 10%;
-  border-bottom-left-radius: 10%;
-  background-color: #fff;
+  background-color: #eee;
   padding: 0px 10px 0px 10px;
   margin-top: 0px;
 }
@@ -46,14 +52,12 @@
   border-bottom: 1px solid #ccc;
 }
 .type-440 .navbar-default .navbar-nav li .dropdown-menu li a {
-  border: none;
   padding: 10px;
-  text-decoration: none;
   color: #000;
 }
 .type-440 .navbar-default .navbar-nav li .dropdown-menu li a:hover {
   color: #34D298;
-  background-color: #fff;
+  background-color: #eee;
 }
 .type-440 .navbar-default .navbar-nav .active-item a {
   color: #7ccbfc;
@@ -63,7 +67,7 @@
   border: none;
 }
 .type-440 .navbar-default .navbar-collapse .nav li a:hover {
-  color: #7ccbfc;
+  color: #fff;
   background-color: #34D298;
 }
 .type-440 button {

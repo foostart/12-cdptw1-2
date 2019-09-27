@@ -1,11 +1,3 @@
-<?php
-$url_host = 'http://' . $_SERVER['HTTP_HOST'];
-$pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
-$pattern_uri = '/' . $pattern_document_root . '(.*)$/';
-preg_match_all($pattern_uri, __DIR__, $matches);
-$url_path = $url_host . $matches[1][0];
-$url_path = str_replace('\\', '/', $url_path);
-?>
 <div class="type-440">
     <!--BEGIN MENU -->
     <nav class="navbar navbar-default">
@@ -18,7 +10,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 <span class="icon-bar"></span>
                 </button>
                 <!--LOGO-->
-                <a class="brand" href="#"> <img class="a" src="images/sc-logo-main1.png" alt=""> </a>
+                <a class="brand" href="#"> <img class="a" src="images/440-logo.png" alt=""> </a>
             </div>
             <!--END NAVMIN -->
             <!--BEGIN MENU RIGHT-->
@@ -29,12 +21,10 @@ $url_path = str_replace('\\', '/', $url_path);
                     <li><a href="#">Showcase</a></li>
                     <!--PAGES-->
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Highlights <i class="fas fa-caret-down"></i></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Highlights<span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li><a href="#">Coming soon</a></li>
                             <li><a href="#">How it works</a></li>
-                            <li><a href="#">Page elements</a></li>
-                            <li><a href="#">404</a></li>
                         </ul>
                     </li>
                     <!--SEVICES-->
@@ -46,14 +36,8 @@ $url_path = str_replace('\\', '/', $url_path);
                         <a href="#">Examples</a>
                     </li>
                     <!--GALLERY-->
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Gallery random</a></li>
-                            <li><a href="#">Gallery columns 2</a></li>
-                            <li><a href="#">Gallery columns 3</a></li>
-                            <li><a href="#">Gallery columns 4</a></li>
-                        </ul>
+                    <li>
+                        <a href="#">Blog</a>
                     </li>
                     <!--SHOP-->
                     <li>
@@ -65,4 +49,16 @@ $url_path = str_replace('\\', '/', $url_path);
         </div>
     </nav>
     <!--END MENU -->
+    <!--START CONTENT -->
+    <div class="container">
+        <div class="content">
+            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+        </div>
+    </div>
+    <!--END CONTENT -->
 </div>

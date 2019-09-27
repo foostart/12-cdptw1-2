@@ -17,60 +17,24 @@
             <div class="navbar-collapse" id="bs-slide-dropdown">
                 <ul class="nav navbar-nav navbar-right hide-show-shortcode">
                     <!--HOME-->
-                    <li class="dropdown active-item">
-                        <a href="#" class="dropdown-toggle active-item " data-toggle="dropdown">Home<span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Coming soon</a></li>
-                            <li><a href="#">How it works</a></li>
-                        </ul>
-                    </li>
+                    <li class="active-item"><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
                     <!--PAGES-->
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages<span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">Coming soon</a></li>
-                            <li><a href="#">How it works</a></li>
                             <li><a href="#">Page elements</a></li>
                             <li><a href="#">404</a></li>
                         </ul>
                     </li>
                     <!--SEVICES-->
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services<span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Price plans</a></li>
-                        </ul>
-                    </li>
+                    <li><a href="#">Services</a></li>
                     <!--BLOG-->
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog<span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Blog style 1</a></li>
-                            <li><a href="#">Blog style 1 fullwidth</a></li>
-                            <li><a href="#">Blog style 2</a></li>
-                            <li><a href="#">Blog style 2 fullwidth</a></li>
-                            <li><a href="#">Blog style 3</a></li>
-                            <li><a href="#">Blog style 3 fullwidth</a></li>
-                        </ul>
-                    </li>
+                    <li><a href="#">Blog</a></li>
                     <!--GALLERY-->
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Gallery<span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Gallery random</a></li>
-                            <li><a href="#">Gallery columns 2</a></li>
-                            <li><a href="#">Gallery columns 3</a></li>
-                            <li><a href="#">Gallery columns 4</a></li>
-                        </ul>
-                    </li>
+                    <li><a href="#">Gallery</a></li>
                     <!--SHOP-->
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Shop<span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Single product</a></li>
-                        </ul>
-                    </li>
+                    <li><a href="#">Shop</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
             </div>
@@ -78,4 +42,17 @@
         </div>
     </nav>
     <!--END MENU -->
+    <!-- Start content -->
+    <div class="container">
+        <br>
+        <div class="content">
+            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+            </div>
+    </div>
+    <!-- END content -->
 </div>

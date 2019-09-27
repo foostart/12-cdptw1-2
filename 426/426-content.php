@@ -21,253 +21,55 @@
                                 <li><a href="#">Features</a></li>
                                 <!---MENU SHORTSCODE-->
                                 <li class="dropdown">
-                                    <a href="#">Shortcodes</a>
+                                    <a href="#">Shortcodes<span class="caret"></span></a>
                                     <ul class="dropdown-menu" role="menu">
-                                        <li class="row">
-                                            <div class="col-md-2">
-                                                <div class="custom-title">
-                                                    <ul>
-                                                        <li><a href="#"><span class="p1">TYPOGRAPHY</span></a></li>
-                                                        <li><a href="#"><span>Alert</span></a></li>
-                                                        <li><a href="#"><span>Basic</span></a></li>
-                                                        <li><a href="#"><span>Blockquote</span></a></li>
-                                                        <li><a href="#"><span>Buttons</span></a></li>
-                                                        <li><a href="#"><span>Code</span></a></li>
-                                                        <li><a href="#"><span>Columns</span></a></li>
-                                                        <li><a href="#"><span>Content Link</span></a></li>
-                                                        <li><a href="#"><span>Divider</span></a></li>
-                                                        <li><a href="#"><span>Dropcap</span></a></li>
-                                                        <li><a href="#"><span>Fancy Link</span></a></li>
-                                                        <li><a href="#"><span>Google Font</span></a></li>
-                                                        <li><a href="#"><span>Highlight</span></a></li>
-                                                        <li><a href="#"><span>Hr</span></a></li>
-                                                        <li><a href="#"><span>Icons</span></a></li>
-                                                        <li><a href="#"><span>Icon Bar</span></a></li>
-                                                        <li><a href="#"><span>Icon Block</span></a></li>
-                                                    </ul>
-                                                </div>
+                                        <li>
+                                            <div class="row">
+                                                <div class="col-sm-3">
+                                                    <div class="custom-title">
+                                                        <ul>
+                                                            <li><a href="#"><span class="p1">TYPOGRAPHY</span></a></li>
+                                                            <li><a href="#"><span>Alert</span></a></li>
+                                                            
+                                                        </ul>
+                                                    </div>
+                                                </div><!-- END COL-3 -->
+                                                <div class="col-sm-3">
+                                                    <div class="custom-title">
+                                                        <ul>
+                                                            <li><a href="#"><span class="p1">TYPOGRAPHY</span></a></li>
+                                                            <li><a href="#"><span>Alert</span></a></li> 
+                                                        </ul>
+                                                    </div>
+                                                </div><!-- END COL-3 -->
+                                                <div class="col-sm-3">
+                                                    <div class="custom-title">
+                                                        <ul>
+                                                            <li><a href="#"><span class="p1">TYPOGRAPHY</span></a></li>
+                                                            <li><a href="#"><span>Alert</span></a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div><!-- END COL-3 -->
+                                                <div class="col-sm-3">
+                                                    <div class="custom-title">
+                                                        <ul>
+                                                            <li><a href="#"><span class="p1">TYPOGRAPHY</span></a></li>
+                                                            <li><a href="#"><span>Alert</span></a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div><!-- END COL-3 -->
                                             </div>
-                                            <div class="col-md-2">
-                                                <div class="custom-title">
-                                                    <ul>
-                                                        <li><a href="#"><span class="p1">TYPOGRAPHY</span></a></li>
-                                                        <li><a href="#"><span>Alert</span></a></li>
-                                                        <li><a href="#"><span>Basic</span></a></li>
-                                                        <li><a href="#"><span>Blockquote</span></a></li>
-                                                        <li><a href="#"><span>Buttons</span></a></li>
-                                                        <li><a href="#"><span>Code</span></a></li>
-                                                        <li><a href="#"><span>Columns</span></a></li>
-                                                        <li><a href="#"><span>Content Link</span></a></li>
-                                                        <li><a href="#"><span>Divider</span></a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <!-- END COL-2 -->
-                                            <div class="col-md-2">
-                                                <div class="custom-title">
-                                                    <ul>
-                                                        <li><a href="#"><span class="p1">TYPOGRAPHY</span></a></li>
-                                                        <li><a href="#"><span>Alert</span></a></li>
-                                                        <li><a href="#"><span>Basic</span></a></li>
-                                                        <li><a href="#"><span>Blockquote</span></a></li>
-                                                        <li><a href="#"><span>Buttons</span></a></li>
-                                                        <li><a href="#"><span>Code</span></a></li>
-                                                        <li><a href="#"><span>Columns</span></a></li>
-                                                        <li><a href="#"><span>Content Link</span></a></li>
-                                                        <li><a href="#"><span>Divider</span></a></li>
-                                                        <li><a href="#"><span>Dropcap</span></a></li>
-                                                        <li><a href="#"><span>Fancy Link</span></a></li>
-                                                        <li><a href="#"><span>Google Font</span></a></li>
-                                                        <li><a href="#"><span>Highlight</span></a></li>
-                                                        <li><a href="#"><span>Hr</span></a></li>
-                                                        <li><a href="#"><span>Icons</span></a></li>
-                                                        <li><a href="#"><span>Icon Bar</span></a></li>
-                                                        <li><a href="#"><span>Icon Block</span></a></li>
-                                                    </ul>
-                                                </div>
-                                            </div><!-- END COL-2 -->
-                                            <div class="col-md-2">
-                                                <div class="custom-title">
-                                                    <ul>
-                                                        <li><a href="#"><span class="p1">TYPOGRAPHY</span></a></li>
-                                                        <li><a href="#"><span>Alert</span></a></li>
-                                                        <li><a href="#"><span>Basic</span></a></li>
-                                                        <li><a href="#"><span>Blockquote</span></a></li>
-                                                        <li><a href="#"><span>Buttons</span></a></li>
-                                                        <li><a href="#"><span>Code</span></a></li>
-                                                        <li><a href="#"><span>Columns</span></a></li>
-                                                        <li><a href="#"><span>Content Link</span></a></li>
-                                                    </ul>
-                                                </div>
-                                            </div><!-- END COL-2 -->
-                                            <div class="col-md-2">
-                                                <div class="custom-title">
-                                                    <ul>
-                                                        <li><a href="#"><span class="p1">TYPOGRAPHY</span></a></li>
-                                                        <li><a href="#"><span>Alert</span></a></li>
-                                                        <li><a href="#"><span>Basic</span></a></li>
-                                                        <li><a href="#"><span>Blockquote</span></a></li>
-                                                        <li><a href="#"><span>Buttons</span></a></li>
-                                                        <li><a href="#"><span>Code</span></a></li>
-                                                        <li><a href="#"><span>Columns</span></a></li>
-                                                        <li><a href="#"><span>Content Link</span></a></li>
-                                                        <li><a href="#"><span>Divider</span></a></li>
-                                                        <li><a href="#"><span>Dropcap</span></a></li>
-                                                        <li><a href="#"><span>Fancy Link</span></a></li>
-                                                        <li><a href="#"><span>Google Font</span></a></li>
-                                                        <li><a href="#"><span>Highlight</span></a></li>
-                                                        <li><a href="#"><span>Hr</span></a></li>
-                                                        <li><a href="#"><span>Icons</span></a></li>
-                                                    </ul>
-                                                </div>
-                                            </div><!-- END COL-2 -->
-                                            <div class="col-md-2">
-                                                <div class="custom-title">
-                                                    <ul>
-                                                        <li><a href="#"><span class="p1">TYPOGRAPHY</span></a></li>
-                                                        <li><a href="#"><span>Alert</span></a></li>
-                                                        <li><a href="#"><span>Basic</span></a></li>
-                                                        <li><a href="#"><span>Blockquote</span></a></li>
-                                                        <li><a href="#"><span>Buttons</span></a></li>
-                                                        <li><a href="#"><span>Code</span></a></li>
-                                                        <li><a href="#"><span>Columns</span></a></li>
-                                                        <li><a href="#"><span>Content Link</span></a></li>
-                                                        <li><a href="#"><span>Divider</span></a></li>
-                                                        <li><a href="#"><span>Dropcap</span></a></li>
-                                                        <li><a href="#"><span>Fancy Link</span></a></li>
-                                                        <li><a href="#"><span>Google Font</span></a></li>
-                                                        <li><a href="#"><span>Highlight</span></a></li>
-                                                        <li><a href="#"><span>Hr</span></a></li>
-                                                        <li><a href="#"><span>Icons</span></a></li>
-                                                    </ul>
-                                                </div>
-                                            </div><!-- END COL-2 -->
-                                        </li><!-- END ROW -->
+                                        </li>
                                     </ul>
                                 </li>
                                 <!---MENU BLOG-->
-                                <li class="dropdown">
+                                <li>
                                     <a href="#">Blog</a>
-                                    <ul class="dropdown-menu" role="menu">
-                                        <li>
-                                            <div class="row">
-                                                <div class="col-sm-3">
-                                                    <div class="custom-title">
-                                                        <ul>
-                                                            <li><a href="#"><span class="p1">TYPOGRAPHY</span></a></li>
-                                                            <li><a href="#"><span>Alert</span></a></li>
-                                                            <li><a href="#"><span>Basic</span></a></li>
-                                                            <li><a href="#"><span>Blockquote</span></a></li>
-                                                            <li><a href="#"><span>Buttons</span></a></li>
-                                                            <li><a href="#"><span>Code</span></a></li>
-                                                            <li><a href="#"><span>Columns</span></a></li>
-                                                        </ul>
-                                                    </div>
-                                                </div><!-- END COL-3 -->
-                                                <div class="col-sm-3">
-                                                    <div class="custom-title">
-                                                        <ul>
-                                                            <li><a href="#"><span class="p1">TYPOGRAPHY</span></a></li>
-                                                            <li><a href="#"><span>Alert</span></a></li>
-                                                            <li><a href="#"><span>Basic</span></a></li>
-                                                            <li><a href="#"><span>Blockquote</span></a></li>
-                                                            <li><a href="#"><span>Buttons</span></a></li>
-                                                            <li><a href="#"><span>Code</span></a></li>
-                                                            <li><a href="#"><span>Columns</span></a></li>
-                                                        </ul>
-                                                    </div>
-                                                </div><!-- END COL-3 -->
-                                                <div class="col-sm-3">
-                                                    <div class="custom-title">
-                                                        <ul>
-                                                            <li><a href="#"><span class="p1">TYPOGRAPHY</span></a></li>
-                                                            <li><a href="#"><span>Alert</span></a></li>
-                                                            <li><a href="#"><span>Basic</span></a></li>
-                                                            <li><a href="#"><span>Blockquote</span></a></li>
-                                                            <li><a href="#"><span>Buttons</span></a></li>
-                                                            <li><a href="#"><span>Code</span></a></li>
-                                                            <li><a href="#"><span>Columns</span></a></li>
-                                                        </ul>
-                                                    </div>
-                                                </div><!-- END COL-3 -->
-                                                <div class="col-sm-3">
-                                                    <div class="custom-title">
-                                                        <ul>
-                                                            <li><a href="#"><span class="p1">TYPOGRAPHY</span></a></li>
-                                                            <li><a href="#"><span>Alert</span></a></li>
-                                                            <li><a href="#"><span>Basic</span></a></li>
-                                                            <li><a href="#"><span>Blockquote</span></a></li>
-                                                            <li><a href="#"><span>Buttons</span></a></li>
-                                                            <li><a href="#"><span>Code</span></a></li>
-                                                            <li><a href="#"><span>Columns</span></a></li>
-                                                        </ul>
-                                                    </div>
-                                                </div><!-- END COL-3 -->
-                                            </div>
-                                        </li>
-                                    </ul>
+                                    
                                 </li>
                                 <!---MENU PORTFOLIO-->
-                                <li class="dropdown">
+                                <li>
                                     <a href="#">Portfolio</a>
-                                    <ul class="dropdown-menu" role="menu">
-                                        <li>
-                                            <div class="row">
-                                                <div class="col-sm-3">
-                                                    <div class="custom-title">
-                                                        <ul>
-                                                            <li><a href="#"><span class="p1">TYPOGRAPHY</span></a></li>
-                                                            <li><a href="#"><span>Alert</span></a></li>
-                                                            <li><a href="#"><span>Basic</span></a></li>
-                                                            <li><a href="#"><span>Blockquote</span></a></li>
-                                                            <li><a href="#"><span>Buttons</span></a></li>
-                                                            <li><a href="#"><span>Code</span></a></li>
-                                                            <li><a href="#"><span>Columns</span></a></li>
-                                                            <li><a href="#"><span>Alert</span></a></li>
-                                                            <li><a href="#"><span>Basic</span></a></li>
-                                                        </ul>
-                                                    </div>
-                                                </div><!-- END COL-3 -->
-                                                <div class="col-sm-3">
-                                                    <div class="custom-title">
-                                                        <ul>
-                                                            <li><a href="#"><span class="p1">TYPOGRAPHY</span></a></li>
-                                                            <li><a href="#"><span>Alert</span></a></li>
-                                                            <li><a href="#"><span>Basic</span></a></li>
-                                                            <li><a href="#"><span>Blockquote</span></a></li>
-                                                            <li><a href="#"><span>Buttons</span></a></li>
-                                                            <li><a href="#"><span>Code</span></a></li>
-                                                            <li><a href="#"><span>Columns</span></a></li>
-                                                        </ul>
-                                                    </div>
-                                                </div><!-- END COL-3 -->
-                                                <div class="col-sm-3">
-                                                    <div class="custom-title">
-                                                        <ul>
-                                                            <li><a href="#"><span class="p1">TYPOGRAPHY</span></a></li>
-                                                            <li><a href="#"><span>Alert</span></a></li>
-                                                            <li><a href="#"><span>Basic</span></a></li>
-                                                            <li><a href="#"><span>Blockquote</span></a></li>
-                                                            <li><a href="#"><span>Buttons</span></a></li>
-                                                            <li><a href="#"><span>Code</span></a></li>
-                                                            <li><a href="#"><span>Columns</span></a></li>
-                                                            <li><a href="#"><span>Alert</span></a></li>
-                                                            <li><a href="#"><span>Basic</span></a></li>
-                                                        </ul>
-                                                    </div>
-                                                </div><!-- END COL-3 -->
-                                                <div class="col-sm-3">
-                                                    <div class="custom-title">
-                                                        <ul>
-                                                            <li><a href="#"><span>Alert</span></a></li>
-                                                            <li><a href="#"><span>Basic</span></a></li>
-                                                            <li><a href="#"><span>Blockquote</span></a></li>
-                                                        </ul>
-                                                    </div>
-                                                </div><!-- END COL-3 -->
-                                            </div>
-                                        </li>
-                                    </ul>
                                 </li>
                                 <li><a href="#"><i class="fa fa-question" aria-hidden="true"></i></a></li>
                                 <li><a href="#"><i class="fa fa-comment-o" aria-hidden="true"></i></a></li>
@@ -300,119 +102,9 @@
                                                 <ul>
                                                     <li><a href="#"><span class="p1">TYPOGRAPHY</span></a></li>
                                                     <li><a href="#"><span>Alert</span></a></li>
-                                                    <li><a href="#"><span>Basic</span></a></li>
-                                                    <li><a href="#"><span>Blockquote</span></a></li>
-                                                    <li><a href="#"><span>Buttons</span></a></li>
-                                                    <li><a href="#"><span>Code</span></a></li>
-                                                    <li><a href="#"><span>Columns</span></a></li>
-                                                    <li><a href="#"><span>Content Link</span></a></li>
-                                                    <li><a href="#"><span>Divider</span></a></li>
-                                                    <li><a href="#"><span>Dropcap</span></a></li>
-                                                    <li><a href="#"><span>Fancy Link</span></a></li>
-                                                    <li><a href="#"><span>Google Font</span></a></li>
-                                                    <li><a href="#"><span>Highlight</span></a></li>
-                                                    <li><a href="#"><span>Hr</span></a></li>
-                                                    <li><a href="#"><span>Icons</span></a></li>
-                                                    <li><a href="#"><span>Icon Bar</span></a></li>
-                                                    <li><a href="#"><span>Icon Block</span></a></li>
                                                 </ul>
                                             </div>
                                         </div>
-                                        <div>
-                                            <div class="custom-title">
-                                                <ul>
-                                                    <li><a href="#"><span class="p1">TYPOGRAPHY</span></a></li>
-                                                    <li><a href="#"><span>Alert</span></a></li>
-                                                    <li><a href="#"><span>Basic</span></a></li>
-                                                    <li><a href="#"><span>Blockquote</span></a></li>
-                                                    <li><a href="#"><span>Buttons</span></a></li>
-                                                    <li><a href="#"><span>Code</span></a></li>
-                                                    <li><a href="#"><span>Columns</span></a></li>
-                                                    <li><a href="#"><span>Content Link</span></a></li>
-                                                    <li><a href="#"><span>Divider</span></a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <!-- END COL-2 -->
-                                        <div>
-                                            <div class="custom-title">
-                                                <ul>
-                                                    <li><a href="#"><span class="p1">TYPOGRAPHY</span></a></li>
-                                                    <li><a href="#"><span>Alert</span></a></li>
-                                                    <li><a href="#"><span>Basic</span></a></li>
-                                                    <li><a href="#"><span>Blockquote</span></a></li>
-                                                    <li><a href="#"><span>Buttons</span></a></li>
-                                                    <li><a href="#"><span>Code</span></a></li>
-                                                    <li><a href="#"><span>Columns</span></a></li>
-                                                    <li><a href="#"><span>Content Link</span></a></li>
-                                                    <li><a href="#"><span>Divider</span></a></li>
-                                                    <li><a href="#"><span>Dropcap</span></a></li>
-                                                    <li><a href="#"><span>Fancy Link</span></a></li>
-                                                    <li><a href="#"><span>Google Font</span></a></li>
-                                                    <li><a href="#"><span>Highlight</span></a></li>
-                                                    <li><a href="#"><span>Hr</span></a></li>
-                                                    <li><a href="#"><span>Icons</span></a></li>
-                                                    <li><a href="#"><span>Icon Bar</span></a></li>
-                                                    <li><a href="#"><span>Icon Block</span></a></li>
-                                                </ul>
-                                            </div>
-                                        </div><!-- END COL-2 -->
-                                        <div>
-                                            <div class="custom-title">
-                                                <ul>
-                                                    <li><a href="#"><span class="p1">TYPOGRAPHY</span></a></li>
-                                                    <li><a href="#"><span>Alert</span></a></li>
-                                                    <li><a href="#"><span>Basic</span></a></li>
-                                                    <li><a href="#"><span>Blockquote</span></a></li>
-                                                    <li><a href="#"><span>Buttons</span></a></li>
-                                                    <li><a href="#"><span>Code</span></a></li>
-                                                    <li><a href="#"><span>Columns</span></a></li>
-                                                    <li><a href="#"><span>Content Link</span></a></li>
-                                                </ul>
-                                            </div>
-                                        </div><!-- END COL-2 -->
-                                        <div>
-                                            <div class="custom-title">
-                                                <ul>
-                                                    <li><a href="#"><span class="p1">TYPOGRAPHY</span></a></li>
-                                                    <li><a href="#"><span>Alert</span></a></li>
-                                                    <li><a href="#"><span>Basic</span></a></li>
-                                                    <li><a href="#"><span>Blockquote</span></a></li>
-                                                    <li><a href="#"><span>Buttons</span></a></li>
-                                                    <li><a href="#"><span>Code</span></a></li>
-                                                    <li><a href="#"><span>Columns</span></a></li>
-                                                    <li><a href="#"><span>Content Link</span></a></li>
-                                                    <li><a href="#"><span>Divider</span></a></li>
-                                                    <li><a href="#"><span>Dropcap</span></a></li>
-                                                    <li><a href="#"><span>Fancy Link</span></a></li>
-                                                    <li><a href="#"><span>Google Font</span></a></li>
-                                                    <li><a href="#"><span>Highlight</span></a></li>
-                                                    <li><a href="#"><span>Hr</span></a></li>
-                                                    <li><a href="#"><span>Icons</span></a></li>
-                                                </ul>
-                                            </div>
-                                        </div><!-- END COL-2 -->
-                                        <div>
-                                            <div class="custom-title">
-                                                <ul>
-                                                    <li><a href="#"><span class="p1">TYPOGRAPHY</span></a></li>
-                                                    <li><a href="#"><span>Alert</span></a></li>
-                                                    <li><a href="#"><span>Basic</span></a></li>
-                                                    <li><a href="#"><span>Blockquote</span></a></li>
-                                                    <li><a href="#"><span>Buttons</span></a></li>
-                                                    <li><a href="#"><span>Code</span></a></li>
-                                                    <li><a href="#"><span>Columns</span></a></li>
-                                                    <li><a href="#"><span>Content Link</span></a></li>
-                                                    <li><a href="#"><span>Divider</span></a></li>
-                                                    <li><a href="#"><span>Dropcap</span></a></li>
-                                                    <li><a href="#"><span>Fancy Link</span></a></li>
-                                                    <li><a href="#"><span>Google Font</span></a></li>
-                                                    <li><a href="#"><span>Highlight</span></a></li>
-                                                    <li><a href="#"><span>Hr</span></a></li>
-                                                    <li><a href="#"><span>Icons</span></a></li>
-                                                </ul>
-                                            </div>
-                                        </div><!-- END COL-2 -->
                                     </div><!-- END ROW -->
                                 </li>
                             </ul>
@@ -429,4 +121,14 @@
         </div>
     </div>
     <!--END MENU-->
+</div>
+<div class="container">
+    <div class="content">
+        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+    </div>
 </div>

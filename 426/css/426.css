@@ -2,6 +2,9 @@
   margin-bottom: 20px;
   background-color: #06121b;
 }
+.type_426 #nav-icon2:hover {
+  color: #0095eb;
+}
 .type_426 .navbar-wrapper {
   position: relative;
   background-color: #06121b;
@@ -166,7 +169,7 @@
 }
 .type_426 .btn-buy {
   height: 50px;
-  line-height: 3em;
+  line-height: 3.5em;
   color: white;
   float: right;
   background: linear-gradient(to right,#ff3232 50%,#0095eb 50%);
@@ -189,7 +192,7 @@
 .type_426 .nav li a:focus,
 .type_426 .nav li a:hover {
   background-color: transparent;
-  color: white;
+  color: #fff;
 }
 .type_426 .custom-title ul {
   padding: 0;
